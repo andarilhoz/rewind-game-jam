@@ -1581,7 +1581,7 @@ MonoBehaviour:
     emulari dori matiro imperavi me dori me dimere ameno reo. Ameno latire dore latiremo
     interimo, me matiro matiremo dori am adapare imperavi omenare.
 
-    
+
 
     Emulari
     dori me omenare interimo dimere adapare matiremo reo matiro. Me omenare latiremo
@@ -1591,35 +1591,35 @@ MonoBehaviour:
     Omenare matiremo emulari adapare latiremo imperavi dimere am dori. Dore dimere
     matiremo interimo matiro, omenare me latiremo ameno.
 
-    
 
-    Ameno dori
-    imperavi interimo, omenare me dore matiro matiremo latiremo reo dimere latire.
-    Adapare latire interimo dore matiro, latiremo dori imperavi dimere emulari dori
-    me am omenare. Omenare am dore reo, adapare matiremo latiremo dori me emulari
-    interimo ameno dori dimere. Latiremo ameno me adapare omenare, imperavi dimere
-    matiro dori me dori latire emulari matiremo. Dore dori me emulari matiremo reo
-    interimo latiremo dimere imperavi ameno latire dori omenare.
 
-    
+    Ameno dori imperavi
+    interimo, omenare me dore matiro matiremo latiremo reo dimere latire. Adapare
+    latire interimo dore matiro, latiremo dori imperavi dimere emulari dori me am
+    omenare. Omenare am dore reo, adapare matiremo latiremo dori me emulari interimo
+    ameno dori dimere. Latiremo ameno me adapare omenare, imperavi dimere matiro
+    dori me dori latire emulari matiremo. Dore dori me emulari matiremo reo interimo
+    latiremo dimere imperavi ameno latire dori omenare.
 
-    Adapare
-    emulari dore am latire, ameno dori me latiremo matiro omenare dori interimo imperavi.
-    Ameno dimere dori dore am latiremo adapare matiro latire matiremo reo emulari
-    omenare. Dore dimere interimo dori latire, me matiro emulari reo adapare ameno
-    matiremo latiremo. Matiro adapare dori me reo, latiremo dimere dore ameno dori
-    am matiremo imperavi latire. Interimo dori me adapare emulari, dore latire matiremo
-    reo imperavi dori ameno me omenare.
 
-    
 
-    Adapare interimo matiremo reo
-    dori, ameno imperavi omenare dori me. Omenare me reo dimere emulari, interimo
-    matiremo dori ameno. Interimo matiremo dimere emulari imperavi omenare latiremo
-    matiro dori. Adapare dori me me, latiremo imperavi matiremo emulari am dimere.
-    Latiremo adapare me matiremo latire, dore imperavi am emulari. Emulari reo latire
-    imperavi interimo, adapare me dori me matiremo. Imperavi ameno emulari adapare
-    dimere, latire latiremo matiremo matiro.'
+    Adapare emulari dore
+    am latire, ameno dori me latiremo matiro omenare dori interimo imperavi. Ameno
+    dimere dori dore am latiremo adapare matiro latire matiremo reo emulari omenare.
+    Dore dimere interimo dori latire, me matiro emulari reo adapare ameno matiremo
+    latiremo. Matiro adapare dori me reo, latiremo dimere dore ameno dori am matiremo
+    imperavi latire. Interimo dori me adapare emulari, dore latire matiremo reo imperavi
+    dori ameno me omenare.
+
+
+
+    Adapare interimo matiremo reo dori, ameno imperavi
+    omenare dori me. Omenare me reo dimere emulari, interimo matiremo dori ameno.
+    Interimo matiremo dimere emulari imperavi omenare latiremo matiro dori. Adapare
+    dori me me, latiremo imperavi matiremo emulari am dimere. Latiremo adapare me
+    matiremo latire, dore imperavi am emulari. Emulari reo latire imperavi interimo,
+    adapare me dori me matiremo. Imperavi ameno emulari adapare dimere, latire latiremo
+    matiremo matiro.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6384,7 +6384,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: -1
+  m_firstOverflowCharacterIndex: 8
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -6413,7 +6413,7 @@ MonoBehaviour:
     spaceCount: 2
     wordCount: 3
     linkCount: 0
-    lineCount: 1
+    lineCount: 2
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0

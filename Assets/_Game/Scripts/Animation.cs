@@ -16,6 +16,8 @@ namespace _Game.Scripts
         private UnityArmatureComponent disableArmature;
         private bool hasItem;
         private bool backward;
+        private bool right;
+        private bool horizontalMovement;
         
         
         public Animation(UnityArmatureComponent horizontalArmature, UnityArmatureComponent verticalArmature)
@@ -35,9 +37,10 @@ namespace _Game.Scripts
         public void UpdateMovement(Vector2 changeAnimation)
         {
             bool isMoving = changeAnimation != Vector2.zero && changeAnimation.magnitude > animationThreshold;
-            bool horizontalMovement = Mathf.Abs(changeAnimation.x) > Mathf.Abs(changeAnimation.y);
+            horizontalMovement = changeAnimation.magnitude < animationThreshold ? horizontalMovement : Mathf.Abs(changeAnimation.x) > Mathf.Abs(changeAnimation.y);
             
             backward = Math.Abs(changeAnimation.y) < animationThreshold ? backward : changeAnimation.y > 0;
+            right =  Math.Abs(changeAnimation.x) < animationThreshold ? right : changeAnimation.x > 0;
             
             string animationPrefix = isMoving ? "run" : "idle";
             string animationInterfix = hasItem ? "_item" : "";
@@ -59,7 +62,7 @@ namespace _Game.Scripts
             if(currentArmature.animation.lastAnimationName != animationName)
                 currentArmature.animation.Play(animationName);
 
-            currentArmature._armature.flipX = horizontalMovement && changeAnimation.x < 0;
+            currentArmature._armature.flipX = !right && horizontalMovement;
         }
     }
 }

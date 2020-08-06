@@ -26,7 +26,7 @@ public class MenuManager : MonoBehaviour
     
     void PlayButton()
     {
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene("MainGame");
     }
 
     void CreditsButton()
