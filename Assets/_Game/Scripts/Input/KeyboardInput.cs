@@ -8,6 +8,8 @@ namespace _Game.Scripts.Input
         public event Action<Vector2> OnInput;
         public event Action ActionButtonPressed;
 
+        private bool pausedInteractions;
+
         #region Singleton
 
         private static KeyboardInput instance;
@@ -37,7 +39,18 @@ namespace _Game.Scripts.Input
 
         private void Update()
         {
-            ListenInput();
+            if(!pausedInteractions)
+                ListenInput();
+        }
+
+        public void BlockInteractions()
+        {
+            pausedInteractions = true;
+        }
+
+        public void ReleaseInteractions()
+        {
+            pausedInteractions = false;
         }
 
         public void ListenInput()

@@ -17,12 +17,7 @@ public class Item : MonoBehaviour
     {
         input = KeyboardInput.Instance;
     }
-
-    void Update()
-    {
-        
-    }
-
+    
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (!executed && collision.CompareTag("Player"))
