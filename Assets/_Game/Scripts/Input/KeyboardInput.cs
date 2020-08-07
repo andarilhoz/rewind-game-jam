@@ -6,6 +6,7 @@ namespace _Game.Scripts.Input
     public class KeyboardInput : MonoBehaviour
     {
         public event Action<Vector2> OnInput;
+        public event Action ActionButtonPressed;
 
         #region Singleton
 
@@ -46,6 +47,9 @@ namespace _Game.Scripts.Input
 
             Vector2 direction = new Vector2(horizontalMove, verticalMove);
             OnInput?.Invoke(direction);
+
+            if (UnityEngine.Input.GetButtonUp("Jump"))
+               ActionButtonPressed?.Invoke();
         }
     }
 }
